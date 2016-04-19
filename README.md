@@ -29,13 +29,13 @@ This method setup a circular area on matched element, when mouse pointer moving 
   
 ![Distance options](https://raw.githubusercontent.com/MarkoCen/markocen.github.io/master/trialjs/img/distance.jpg)  
   
-**options**:  
+*options*:  
   `distance` {Number} : determine the radius of the circular area  
   `cord` {String} : determine the center of the circular area, could be `center`, `topLeft`, `topCenter`, `topRight`, `centerLeft`, `centerRight`, `bottomLeft`, `bottomCenter`, `bottomRight`  
   
 ![Coordinate options](https://raw.githubusercontent.com/MarkoCen/markocen.github.io/master/trialjs/img/cord.jpg)  
 
-**callback**  
+*callback*  
 An event handler to be called when mouse pointer moving within the circular area, arguments:  
 `distance` {Number} : current distance between mouse pointer and matched element
 `ele` {Node} : matched element
@@ -48,10 +48,10 @@ An event handler to be called when mouse pointer moving within the circular area
 @return {Trial instance}  
 
 same as `Trial.fn.within`, but only call the event handler when mouse pointer enter the circular area  
-**options**:  
+*options*:  
   `distance` {Number} : determine the radius of the circular area  
   `cord` {String} : determine the center of the circular area, could be `center`, `topLeft`, `topCenter`, `topRight`, `centerLeft`, `centerRight`, `bottomLeft`, `bottomCenter`, `bottomRight`  
-**callback**  
+*callback*  
 An event handler to be called when mouse pointer enter the circular area, arguments:  
 `distance` {Number} : current distance between mouse pointer and matched element
 `ele` {Node} : matched element
@@ -64,10 +64,10 @@ An event handler to be called when mouse pointer enter the circular area, argume
 @return {Trial instance}  
 
 same as `Trial.fn.within`, but only call the event handler when mouse pointer leave the circular area  
-**options**:  
+*options*:  
   `distance` {Number} : determine the radius of the circular area  
   `cord` {String} : determine the center of the circular area, could be `center`, `topLeft`, `topCenter`, `topRight`, `centerLeft`, `centerRight`, `bottomLeft`, `bottomCenter`, `bottomRight`  
-**callback**  
+*callback*  
 An event handler to be called when mouse pointer leave the circular area, arguments:  
 `distance` {Number} : current distance between mouse pointer and matched element
 `ele` {Node} : matched element
