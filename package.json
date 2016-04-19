@@ -1,6 +1,6 @@
 {
   "name": "trial-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "simple library to monitoring mouse position and predicting user input",
   "main": "trial.min.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "homepage": "https://github.com/MarkoCen/trial-js",
   "author": "Marko Cen",
   "license": "MIT",
+  "keywords": ["pointer", "monitoring", "predicting", "mouse"],
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-header": "^1.7.1",
