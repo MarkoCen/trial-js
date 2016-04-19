@@ -1,7 +1,7 @@
 {
   "name": "trial-js",
   "version": "0.1.0",
-  "description": "lightweight library for monitoring mouse position and predicting user input",
+  "description": "simple library to monitoring mouse position and predicting user input",
   "main": "trial.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
