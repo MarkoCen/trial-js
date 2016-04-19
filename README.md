@@ -25,7 +25,7 @@ Initialize a new Trial instance related to selector, same selector would only ha
 @params callback {Function}  
 @return {Trial instance}  
 
-This method setup a circular area on matched element, when mouse pointer moving within this area, event handler would be called  
+This method sets a circular area on matched element, when mouse pointer moving within this area, event handler would be called  
   
 ![Distance options](https://raw.githubusercontent.com/MarkoCen/markocen.github.io/master/trialjs/img/distance.jpg)  
   
