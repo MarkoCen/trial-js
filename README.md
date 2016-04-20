@@ -4,7 +4,6 @@ simple library to monitoring mouse position and predicting user input
   * No dependency
   * Lightweight (2kb gzipped)
   * Automatically extends `jQuery` and `Zepto` properties
-  * `webpack` loader supported
 
 [Usage & Examples](http://markocen.github.io/trialjs/trial-js.html)  
 
