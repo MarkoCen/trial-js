@@ -1,3 +1,4 @@
-/node_modules
+node_modules/
 test.html
 npm-debug.log
+.idea/

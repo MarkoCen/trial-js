@@ -405,13 +405,7 @@
 
     }
 
-    
-
-    if(typeof module === 'object' && module.exports){
-        module.exports = init(self);
-    }else{
-        init(self);
-    }
+    init(self);
 
 
 })(this);
