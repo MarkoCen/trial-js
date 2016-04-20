@@ -1,5 +1,5 @@
 # Trial.js
-simple library to monitoring mouse position and predicting user input
+simple library could monitor mouse position and predict user input
 
   * No dependency
   * Lightweight (2kb gzipped)
