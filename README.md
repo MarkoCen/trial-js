@@ -2,7 +2,7 @@
 simple library could monitor mouse position and predict user input
 
   * No dependency
-  * Lightweight (2kb gzipped)
+  * Lightweight (~1kb gzipped)
   * Automatically extends `jQuery` and `Zepto` properties
 
 [Usage & Examples](http://markocen.github.io/trialjs/trial-js.html)  
