@@ -77,6 +77,9 @@ An event handler to be called when mouse pointer leave the circular area, argume
 
 Unbind an event handler for specific event, eventName could be `within`, `enter`, `leave`
 
+## Browser Supports
+IE 9+
+
 
 ## License
 MIT
