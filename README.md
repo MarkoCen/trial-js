@@ -9,7 +9,7 @@ simple library could monitor mouse position and predict user input
 
 ## APIs
 
-####Trial(selector)
+#### Trial(selector)
 @params selector {String|Node|NodeList|Array{Node}|jQuery object}  
 @return {Trial instance}  
 @constructor  
@@ -18,7 +18,7 @@ Initialize a new Trial instance related to selector, same selector would only ha
 `selector` could be query string, NodeList or `$` object  
   
   
-####Trial.fn.within(options, callback)
+#### Trial.fn.within(options, callback)
 @params options {Object}  
 @params callback {Function}  
 @return {Trial instance}  
@@ -40,7 +40,7 @@ An event handler to be called when mouse pointer moving within the circular area
 `event` {Event} : mousemove event  
   
   
-####Trial.fn.enter(options, callback)
+#### Trial.fn.enter(options, callback)
 @params options {Object}  
 @params callback {Function}  
 @return {Trial instance}  
@@ -56,7 +56,7 @@ An event handler to be called when mouse pointer enter the circular area, argume
 `event` {Event} : mousemove event  
   
   
-####Trial.fn.leave(options, callback)
+#### Trial.fn.leave(options, callback)
 @params options {Object}  
 @params callback {Function}  
 @return {Trial instance}  
@@ -71,7 +71,7 @@ An event handler to be called when mouse pointer leave the circular area, argume
 `ele` {Node} : matched element
 `event` {Event} : mousemove event 
 
-####Trial.fn.off(eventName)
+#### Trial.fn.off(eventName)
 @params eventName {String}  
 @return {Trial instance}  
 
